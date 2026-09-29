@@ -701,3 +701,8 @@ img { display: block; max-width: 100%; }
 
   .promo, .form, .contacts { padding: 26px; }
 }
+
+
+/* Screenshot mode (?shot=1): no smooth scroll, no reveal animation */
+html.shot-mode { scroll-behavior: auto; }
+html.shot-mode .reveal { opacity: 1 !important; transform: none !important; transition: none !important; }
