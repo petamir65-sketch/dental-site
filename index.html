@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Денталюкс — стоматология в Москве | Лечение без боли</title>
+  <meta name="description" content="Стоматология «Денталюкс»: лечение, имплантация, элайнеры, детская стоматология. Гарантия 5 лет, лечение за 1 визит.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#" class="logo">
+        <span class="logo__mark">✦</span> Денталюкс
+      </a>
+
+      <nav class="nav" id="nav">
+        <a href="#services" class="nav__link">Услуги</a>
+        <a href="#doctors" class="nav__link">Врачи</a>
+        <a href="#prices" class="nav__link">Цены</a>
+        <a href="#reviews" class="nav__link">Отзывы</a>
+        <a href="#contacts" class="nav__link">Контакты</a>
+      </nav>
+
+      <div class="header__right">
+        <a href="tel:+74951234567" class="header__phone">+7 (495) 123-45-67</a>
+        <a href="#form" class="btn btn--primary btn--sm">Записаться</a>
+      </div>
+
+      <button class="burger" id="burger" aria-label="Меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <div class="hero__badges">
+            <span class="pill pill--accent">17 лет заботимся о зубах</span>
+            <span class="pill">Гарантия 5 лет</span>
+          </div>
+
+          <h1 class="hero__title">
+            Стоматология,<br>
+            где <span class="hl">не больно</span><br>
+            и по-настоящему
+            <span class="hl">уютно</span>
+          </h1>
+
+          <p class="hero__text">
+            Лечим за один визит, ставим импланты по технологии Nobel Biocare
+            и выравниваем улыбку незаметными элайнерами. Первый осмотр — бесплатно.
+          </p>
+
+          <div class="hero__actions">
+            <a href="#form" class="btn btn--primary btn--lg">Записаться на приём</a>
+            <a href="#prices" class="btn btn--ghost btn--lg">Прайс-лист</a>
+          </div>
+
+          <div class="hero__trust">
+            <div class="avatars">
+              <span class="avatar">АК</span>
+              <span class="avatar">МВ</span>
+              <span class="avatar">ДС</span>
+              <span class="avatar avatar--more">+9k</span>
+            </div>
+            <div class="hero__trust-text">
+              <b>4.9 ★</b> — 9 200 пациентов уже рекомендуют нас
+            </div>
+          </div>
+        </div>
+
+        <aside class="hero__card">
+          <div class="hero__card-top">
+            <span class="dot"></span> Ближайшие свободные окна
+          </div>
+
+          <ul class="slots">
+            <li><span>Сегодня, 14:30</span><b>Лечение кариеса</b></li>
+            <li><span>Сегодня, 18:00</span><b>Гигиена Air Flow</b></li>
+            <li><span>Завтра, 10:15</span><b>Консультация ортодонта</b></li>
+          </ul>
+
+          <form class="mini-form" id="miniForm" novalidate>
+            <input type="tel" name="phone" id="miniPhone" placeholder="+7 (___) ___-__-__" required>
+            <button type="submit" class="btn btn--dark btn--full">Забронировать</button>
+            <p class="mini-form__success" id="miniSuccess">Перезвоним в течение 10 минут</p>
+          </form>
+        </aside>
+      </div>
+
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee__track">
+          <span>Лечение за 1 визит</span><i>✦</i>
+          <span>Имплантация</span><i>✦</i>
+          <span>Элайнеры</span><i>✦</i>
+          <span>Детская стоматология</span><i>✦</i>
+          <span>Безболезненно</span><i>✦</i>
+          <span>Лечение за 1 визит</span><i>✦</i>
+          <span>Имплантация</span><i>✦</i>
+          <span>Элайнеры</span><i>✦</i>
+          <span>Детская стоматология</span><i>✦</i>
+          <span>Безболезненно</span><i>✦</i>
+        </div>
+      </div>
+    </section>
+
+    <!-- ADVANTAGES -->
+    <section class="section" id="advantages">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">Почему пациенты выбирают нас</p>
+          <h2 class="section__title">Забота в каждой детали</h2>
+        </div>
+
+        <div class="grid grid--4">
+          <article class="adv reveal">
+            <div class="adv__num">01</div>
+            <h3>Лечение без боли</h3>
+            <p>Мощная анестезия и компьютерная подача — укола почти не чувствуют даже дети.</p>
+          </article>
+          <article class="adv reveal">
+            <div class="adv__num">02</div>
+            <h3>Стоимость сразу</h3>
+            <p>Составляем план и называем итоговую цену до начала лечения. Без сюрпризов.</p>
+          </article>
+          <article class="adv reveal">
+            <div class="adv__num">03</div>
+            <h3>Гарантия 5 лет</h3>
+            <p>На пломбы, коронки и импланты. Если что-то пойдёт не так — переделаем бесплатно.</p>
+          </article>
+          <article class="adv reveal">
+            <div class="adv__num">04</div>
+            <h3>Свой рентген</h3>
+            <p>3D-томограф и радиовизиограф в клинике — диагностика за 5 минут, без лишних поездок.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section section--tint" id="services">
+      <div class="container">
+        <div class="section__head section__head--row reveal">
+          <div>
+            <p class="eyebrow">Направления</p>
+            <h2 class="section__title">Услуги клиники</h2>
+          </div>
+          <p class="section__lead">Полный цикл: от профилактики до полного восстановления зубного ряда — в одном месте.</p>
+        </div>
+
+        <div class="grid grid--3">
+          <article class="service reveal">
+            <div class="service__icon">🦷</div>
+            <h3>Лечение зубов</h3>
+            <p>Кариес, пульпит, каналы под микроскопом. Всё за один визит — в 90% случаев.</p>
+            <div class="service__price">от 3 900 ₽</div>
+          </article>
+
+          <article class="service service--feature reveal">
+            <div class="service__tag">Хит</div>
+            <div class="service__icon">🔩</div>
+            <h3>Имплантация</h3>
+            <p>Nobel Biocare и Osstem. Вживление за 20 минут, нагрузка в тот же день.</p>
+            <div class="service__price">от 32 000 ₽</div>
+          </article>
+
+          <article class="service reveal">
+            <div class="service__icon">😁</div>
+            <h3>Элайнеры и брекеты</h3>
+            <p>Выравнивание без металла в рту. Первый план лечения — бесплатно.</p>
+            <div class="service__price">от 1 800 ₽/мес</div>
+          </article>
+
+          <article class="service reveal">
+            <div class="service__icon">✨</div>
+            <h3>Гигиена и отбеливание</h3>
+            <p>Air Flow, ультразвук, улыбка на 2–4 тона ярче за одно посещение.</p>
+            <div class="service__price">от 4 500 ₽</div>
+          </article>
+
+          <article class="service reveal">
+            <div class="service__icon">👶</div>
+            <h3>Детская стоматология</h3>
+            <p>Лечение молочных зубов, герметизация фиссур и первый визит без слёз.</p>
+            <div class="service__price">от 2 400 ₽</div>
+          </article>
+
+          <article class="service reveal">
+            <div class="service__icon">👑</div>
+            <h3>Коронки и виниры</h3>
+            <p>Керамика E-max и цирконий — видно только вам, что зубы были восстановлены.</p>
+            <div class="service__price">от 14 500 ₽</div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- DOCTORS -->
+    <section class="section" id="doctors">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">Команда</p>
+          <h2 class="section__title">Наши врачи</h2>
+        </div>
+
+        <div class="grid grid--3">
+          <article class="doctor reveal">
+            <div class="doctor__photo doctor__photo--1">ЕК</div>
+            <div class="doctor__body">
+              <h3>Елена Кузнецова</h3>
+              <p class="doctor__role">Главный врач, терапевт</p>
+              <p>16 лет практики. Лечит каналы под увеличением, спасает зубы, которые другие предлагают удалить.</p>
+              <div class="doctor__meta"><span>16 лет</span><span>4.9 ★</span></div>
+            </div>
+          </article>
+
+          <article class="doctor reveal">
+            <div class="doctor__photo doctor__photo--2">ИС</div>
+            <div class="doctor__body">
+              <h3>Игорь Савельев</h3>
+              <p class="doctor__role">Хирург-имплантолог</p>
+              <p>Более 3 000 установленных имплантов. Автор методики одноэтапной имплантации с немедленной нагрузкой.</p>
+              <div class="doctor__meta"><span>14 лет</span><span>5.0 ★</span></div>
+            </div>
+          </article>
+
+          <article class="doctor reveal">
+            <div class="doctor__photo doctor__photo--3">ОП</div>
+            <div class="doctor__body">
+              <h3>Ольга Петрова</h3>
+              <p class="doctor__role">Ортодонт, детский стоматолог</p>
+              <p>Выравнивает улыбки подросткам и взрослым. Первый визит ребёнка превращает в игру.</p>
+              <div class="doctor__meta"><span>11 лет</span><span>4.9 ★</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICES -->
+    <section class="section section--tint" id="prices">
+      <div class="container">
+        <div class="section__head section__head--row reveal">
+          <div>
+            <p class="eyebrow">Прозрачные цены</p>
+            <h2 class="section__title">Популярные процедуры</h2>
+          </div>
+          <p class="section__lead">Точная стоимость — после осмотра. В прайсе всегда указано, что уже включено.</p>
+        </div>
+
+        <div class="price-table reveal">
+          <div class="price-row price-row--head">
+            <span>Процедура</span>
+            <span>Срок</span>
+            <span>Цена</span>
+          </div>
+
+          <div class="price-row">
+            <span class="price-row__name">Первичный осмотр и консультация</span>
+            <span class="price-row__time">30 мин</span>
+            <span class="price-row__cost">бесплатно</span>
+          </div>
+          <div class="price-row">
+            <span class="price-row__name">Профессиональная гигиена Air Flow</span>
+            <span class="price-row__time">60 мин</span>
+            <span class="price-row__cost">4 500 ₽</span>
+          </div>
+          <div class="price-row">
+            <span class="price-row__name">Лечение кариеса (пломба)</span>
+            <span class="price-row__time">45 мин</span>
+            <span class="price-row__cost">3 900 ₽</span>
+          </div>
+          <div class="price-row">
+            <span class="price-row__name">Удаление зуба</span>
+            <span class="price-row__time">30 мин</span>
+            <span class="price-row__cost">от 4 200 ₽</span>
+          </div>
+          <div class="price-row">
+            <span class="price-row__name">Керамическая коронка E-max</span>
+            <span class="price-row__time">2 визита</span>
+            <span class="price-row__cost">14 500 ₽</span>
+          </div>
+          <div class="price-row">
+            <span class="price-row__name">Имплант Nobel Biocare + установка</span>
+            <span class="price-row__time">1 визит</span>
+            <span class="price-row__cost">от 48 000 ₽</span>
+          </div>
+        </div>
+
+        <div class="promo reveal">
+          <div class="promo__text">
+            <span class="promo__label">Специальное предложение</span>
+            <h3>−20% на лечение новым пациентам</h3>
+            <p>Действует до конца месяца на любую процедуру, кроме имплантации.</p>
+          </div>
+          <a href="#form" class="btn btn--light btn--lg">Получить скидку</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- REVIEWS -->
+    <section class="section" id="reviews">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">Отзывы</p>
+          <h2 class="section__title">Что говорят пациенты</h2>
+        </div>
+
+        <div class="grid grid--3">
+          <article class="review reveal">
+            <div class="review__stars">★★★★★</div>
+            <p>«Пришла с паническим страхом стоматологов. Елена Викторовна всё объяснила, обезболила так, что я даже не заметила лечения. Теперь хожу раз в полгода на гигиену.»</p>
+            <div class="review__author"><b>Анна К.</b><span>Лечение кариеса</span></div>
+          </article>
+
+          <article class="review reveal">
+            <div class="review__stars">★★★★★</div>
+            <p>«Ставил имплант — буквально 20 минут, ушёл на работу в тот же день. Через неделю коронка, никто не понял, что это не родной зуб. Спасибо Игорю Сергеевичу!»</p>
+            <div class="review__author"><b>Максим В.</b><span>Имплантация</span></div>
+          </article>
+
+          <article class="review reveal">
+            <div class="review__stars">★★★★★</div>
+            <p>«Сын 4 лет впервые у стоматолога — играл в игры, даже не понял, что зубы смотрели. Отдельное спасибо за такой подход к детям.»</p>
+            <div class="review__author"><b>Ольга Р.</b><span>Детская стоматология</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FORM / CTA -->
+    <section class="cta" id="form">
+      <div class="container cta__inner">
+        <div class="cta__content reveal">
+          <p class="eyebrow eyebrow--light">Первый визит</p>
+          <h2 class="cta__title">Запишитесь на <span>бесплатный</span> осмотр</h2>
+          <p class="cta__text">
+            Врач проведёт диагностику, покажет снимки и составит план лечения
+            с точной стоимостью. Без давления и навязанных процедур.
+          </p>
+          <ul class="cta__list">
+            <li>Осмотр и консультация — 0 ₽</li>
+            <li>План лечения с ценой — на том же приёме</li>
+            <li>Запись в удобное время за 10 минут</li>
+          </ul>
+        </div>
+
+        <form class="form reveal" id="leadForm" novalidate>
+          <h3>Оставьте заявку</h3>
+
+          <div class="field">
+            <input type="text" id="fname" name="name" placeholder=" " required>
+            <label for="fname">Ваше имя</label>
+          </div>
+
+          <div class="field">
+            <input type="tel" id="fphone" name="phone" placeholder=" " required>
+            <label for="fphone">Телефон</label>
+          </div>
+
+          <div class="field">
+            <select id="fservice" name="service">
+              <option value="">Направление</option>
+              <option>Лечение зубов</option>
+              <option>Имплантация</option>
+              <option>Элайнеры / брекеты</option>
+              <option>Гигиена и отбеливание</option>
+              <option>Детская стоматология</option>
+            </select>
+          </div>
+
+          <button type="submit" class="btn btn--primary btn--full btn--lg">Записаться на приём</button>
+          <p class="form__note">Нажимая кнопку, вы соглашаетесь с политикой обработки персональных данных.</p>
+          <p class="form__success" id="formSuccess">Готово! Администратор перезвонит в течение 10 минут.</p>
+        </form>
+      </div>
+    </section>
+
+    <!-- CONTACTS -->
+    <section class="section" id="contacts">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">Как добраться</p>
+          <h2 class="section__title">Контакты клиники</h2>
+        </div>
+
+        <div class="contacts reveal">
+          <div class="contacts__info">
+            <div class="contact-item">
+              <span class="contact-item__label">Адрес</span>
+              <p>Москва, ул. Примерная, 15, 2 этаж<br>м. Тверская — 4 минуты пешком</p>
+            </div>
+            <div class="contact-item">
+              <span class="contact-item__label">Часы работы</span>
+              <p>Пн–Сб: 09:00 – 21:00<br>Вс: 10:00 – 18:00</p>
+            </div>
+            <div class="contact-item">
+              <span class="contact-item__label">Телефон</span>
+              <p><a href="tel:+74951234567">+7 (495) 123-45-67</a></p>
+            </div>
+            <div class="contact-item">
+              <span class="contact-item__label">Почта</span>
+              <p><a href="mailto:hello@dentalyux.ru">hello@dentalyux.ru</a></p>
+            </div>
+          </div>
+
+          <div class="contacts__map">
+            <div class="map">
+              <span class="map__pin">📍</span>
+              <b>Денталюкс</b>
+              <p>ул. Примерная, 15 · вход со двора</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="#" class="logo"><span class="logo__mark">✦</span> Денталюкс</a>
+        <p>Стоматология полного цикла в центре Москвы. Лицензия № ЛО-77-01-012345.</p>
+      </div>
+      <div class="footer__links">
+        <a href="#services">Услуги</a>
+        <a href="#doctors">Врачи</a>
+        <a href="#prices">Цены</a>
+        <a href="#contacts">Контакты</a>
+      </div>
+      <p class="footer__copy">© 2026 Денталюкс. Не является публичной офертой.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
