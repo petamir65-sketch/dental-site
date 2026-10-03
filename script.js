@@ -61,11 +61,11 @@ form.addEventListener('submit', e => {
   const phone = form.phone;
   let valid = true;
 
-  [name, phone].forEach(input => {
-    const bad = !input.value.trim() || input.value.replace(/\D/g, '').length < 11;
-    input.classList.toggle('is-invalid', bad);
-    if (bad) valid = false;
-  });
+  const nameBad = name.value.trim().length < 2;
+  const phoneBad = phone.value.replace(/\D/g, '').length < 11;
+  name.classList.toggle('is-invalid', nameBad);
+  phone.classList.toggle('is-invalid', phoneBad);
+  if (nameBad || phoneBad) valid = false;
 
   if (!valid) return;
 
